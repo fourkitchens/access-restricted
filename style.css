@@ -1,0 +1,47 @@
+body {
+  background: white url("bg.png") top left repeat-x fixed;
+  text-align: center;
+  color: rgb(77,77,77); /* black 70% */
+  font-size: 62.5%; /* resets 1em to 10px */
+  font-family: 'Gotham Rounded', 'Helvetica Neue', Arial, Verdana, sans-serif;
+  }
+
+#logo-wrapper {
+  margin: 100px auto 100px auto;
+  }
+  img#logo {
+    border: 0;
+    }
+
+#text {
+  width: 430px;
+  margin: 0 auto;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  }
+
+  a:link, a:visited, a:active {
+    color: rgb(102,179,96);
+    text-decoration: none;
+    font-weight: bold;
+    }
+  a:hover, a:focus {
+    color: rgb(102,179,96);
+    text-decoration: underline;
+    }
+  
+  h1 {
+    margin: 0 auto 20px auto;
+    padding: 0;
+    color: rgb(102,179,96);
+    font-size: 3.5em;
+    line-height: 1em;
+    text-align: left;
+    }
+  
+  p {
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: right;
+    font-size: 1.25em;
+    }
